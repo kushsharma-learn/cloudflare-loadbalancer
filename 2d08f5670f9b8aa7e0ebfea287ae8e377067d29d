@@ -1,0 +1,19 @@
+environments/cloudflare-kushlearn/terraform.tfvars
+  s_b03d11ce77880b::t_92e55a8f205b59 1-90
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "2d08f5670f9b8aa7e0ebfea287ae8e377067d29d",
+  "prompts": {},
+  "sessions": {
+    "s_b03d11ce77880b": {
+      "agent_id": {
+        "tool": "windsurf",
+        "id": "steep-andesaurus",
+        "model": "unknown"
+      },
+      "human_author": "kush sharma <kushgcem@gmail.com>"
+    }
+  }
+}
