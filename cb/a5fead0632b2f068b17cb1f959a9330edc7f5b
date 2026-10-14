@@ -1,0 +1,19 @@
+README.md
+  s_b03d11ce77880b::t_de939caa09a498 71-86
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "cba5fead0632b2f068b17cb1f959a9330edc7f5b",
+  "prompts": {},
+  "sessions": {
+    "s_b03d11ce77880b": {
+      "agent_id": {
+        "tool": "windsurf",
+        "id": "steep-andesaurus",
+        "model": "unknown"
+      },
+      "human_author": "kush sharma <kushgcem@gmail.com>"
+    }
+  }
+}
