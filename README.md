@@ -68,9 +68,22 @@ Every field and its allowed values is documented inline in the
 ## One-time setup
 
 ### 1. Cloudflare API token (manages the load balancers)
-Dashboard → **My Profile → API Tokens → Create Token**:
-- Account · **Load Balancing: Monitors and Pools** · Edit
-- Zone · **Load Balancers** · Edit
+Dashboard → **My Profile → API Tokens → Create Token → Create Custom Token**.
+
+Grant the following permissions:
+
+**Account** (Account Resources → your account):
+- **Load Balancing: Account Load Balancers** · Edit
+- **Notifications** · Edit
+- **Load Balancing: Monitors and Pools** · Edit
+
+**Zone** (Zone Resources → All zones, or the specific zones you serve):
+- **DNS Settings** · Edit
+- **Load Balancers** · Edit
+- **DNS** · Edit
+
+Create the token and copy its value (shown once) — you'll store it as the
+`CLOUDFLARE_API_TOKEN` GitHub secret in Step 3.
 
 ### 2. Create an R2 bucket for Terraform state
 Terraform needs to remember what it created. We store that "state" in **your**
